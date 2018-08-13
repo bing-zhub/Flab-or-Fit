@@ -8,8 +8,10 @@
     android:orientation="vertical">
 
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
         android:layout_weight="1"
         android:background="@drawable/rounded_corners"
         android:backgroundTint="#2ca5f5">
@@ -49,12 +51,12 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="?attr/colorBackgroundFloating"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:paddingBottom="5dp"
             android:paddingLeft="5dp"
             android:text="Do you even lifting?"
+            android:textColor="?attr/colorBackgroundFloating"
             android:textSize="20dp" />
 
         <TextView
@@ -64,7 +66,72 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
             android:background="@drawable/rounded_corners"
-            android:backgroundTint="#2fcccc"
+            android:backgroundTint="#20000000"
+            android:text="10 sets"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="40dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#52ad56">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/heart" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="11dp"
+            android:paddingRight="5dp"
+            android:text="30%"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:paddingLeft="5dp"
+            android:text="weight lifting"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:text="Do you even lifting?"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
             android:text="10 sets"
             android:textColor="?attr/colorBackgroundFloating"
             android:textSize="40dp" />
@@ -74,32 +141,66 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
         android:layout_weight="1"
         android:background="@drawable/rounded_corners"
-        android:backgroundTint="#2ca5f5">
+        android:backgroundTint="#916bcd">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             app:srcCompat="@drawable/lotus" />
-    </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@drawable/rounded_corners"
-        android:backgroundTint="#2ca5f5">
-
-        <ImageView
-            android:id="@+id/imageView3"
+        <TextView
+            android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            app:srcCompat="@drawable/heart" />
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="11dp"
+            android:paddingRight="5dp"
+            android:text="30%"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:paddingLeft="5dp"
+            android:text="weight lifting"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:text="Do you even lifting?"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:text="10 sets"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="40dp" />
+
     </RelativeLayout>
+
 </LinearLayout>
